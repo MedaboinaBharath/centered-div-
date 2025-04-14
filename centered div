@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered  Div </title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200vh;
+            background-color: #FFA500;
+        }
+
+        .centered-box {
+           padding: 20px 40px;
+           background-color: #f60707;
+           color: rgb(0, 0, 0);
+           border-radius: 10px;
+           font-size: 20px;
+           box-shadow: 0 12px 24px rgba(0, 0, 0, 0.589);
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-box">
+        Click here
+    </div>
+</body>
+</html>
